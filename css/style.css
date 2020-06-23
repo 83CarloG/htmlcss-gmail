@@ -1,0 +1,102 @@
+/* background image */
+body {
+  /* background: red; */
+  background-image: url(../img/bg.jpg);
+  /* background: url(../img/bg.jpg) no-repeat center center fixed;  short style */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+  background-size: cover;
+}
+
+/* site size */
+#container {
+  width: 75%;
+  margin: auto;
+}
+/* /site size */
+
+/* header */
+/* Logo */
+#header-logo {
+  border-bottom: 2px solid #fff;
+}
+
+#logo-img {
+  vertical-align: middle;
+}
+/* /Logo */
+/* Logo-text */
+#logo-text {
+  display: inline;
+  color: white;
+}
+/* /Logo-text */
+/* Search bar */
+.header-bottom {
+  margin-top: 5px;
+
+}
+/* /Search bar */
+/* Unread messages */
+#serch {
+  padding: 5px 0px;
+}
+.unread-mex {
+  border-bottom: 2px solid #fff;
+  font-size: 25px;
+  color: white;
+}
+.unread-mex p {
+  margin: 5px;
+}
+/* circle orange count */
+#count {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: orange;
+  text-align: center;
+  vertical-align: center;
+  line-height: 50px;
+  border-radius: 100%;
+}
+/* /Unread messages */
+/* /header */
+
+/* main - list of emails */
+
+#list {
+  padding: 5px 0px;
+  border-bottom: 2px solid #fff;
+}
+.email {
+  background: lightgrey;
+  border: 1px solid black;
+  color: grey;
+}
+.read {
+  background: white;
+}
+#checkbox {
+  vertical-align: middle;
+}
+
+strong {
+  color: black;
+
+}
+/* /main - list of emails */
+
+/* Footer */
+footer h2 {
+  text-align: center;
+  color: white;
+}
+
+footer span {
+  font-size: 12px;
+  font-style: italic;
+}
+/* /Footer */
